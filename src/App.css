@@ -1,15 +1,14 @@
-.App{
-  align-items: center;
-}
-#logo{
-  width: 300px;
-  height: 100px;
-
+.Container{
+  margin: 5px;
 }
 .logo{
+  width: 300px;
+  height: 100px;
   align-items: center;
   margin: auto;
 }
+
+
 
 .Trope{
   width: 250px;
