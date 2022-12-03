@@ -1,23 +1,31 @@
-import logo from './logo.svg';
 import './App.css';
+import logo from './asserts/logo.png';
+import Trope from './asserts/Trope.png';
+import Award from './asserts/Award.png';
+import Instrument from './asserts/Instrument.png';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className='logo'>
+      <img id='logo' src={logo} alt='Logo'/>
+      </div>
+
+      
+        <div className='AwardAria'>
+            <div className='col-6'>
+            <img className='Trope' src={Trope} alt='trope'/>
+            </div>
+            <div className='col-6'>
+            <img className='Award' src={Award} alt='trope'/>
+            </div>
+        </div>
+      
+      
+
+      <div className='InstrumentAria'>
+            <img className='Instrument' src={Instrument} alt='Instrument'/>
+      </div>
     </div>
   );
 }
