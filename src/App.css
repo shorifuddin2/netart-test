@@ -1,5 +1,6 @@
 .Container{
   margin: 5px;
+  height: 100vh;
 }
 .logo{
   width: 300px;
@@ -11,18 +12,24 @@
 
 
 .Trope{
-  width: 250px;
+  width: 280px;
   height: 400px;
 }
 
 .AwardAria{
-  display: flex;
-  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
 }
 
 .Award{
+  display: grid;
   width: 700px;
   height: 300px;
+}
+
+.Award-right{
+  width: 850px;
+  height: 600px;
 }
 
 .Instrument{
@@ -32,5 +39,39 @@
   margin: auto;
 }
 .InstrumentAria  img{
-  align-items: center;
+display: block;
+  margin: auto;
+}
+
+.footer{
+  background-color: red;
+  text-align: center;
+  
+}
+p{
+  text-align: center;
+}
+.online{
+  font-size: 15px;
+  text-align: center;
+}
+a:hover{
+  cursor: pointer;
+}
+
+
+
+.footer{
+  text-align: center;
+}
+
+.iconAria{
+  display: flex;
+  text-align: center;
+}
+
+.icon{
+  color: aliceblue;
+  width: 30px;
+  padding: 10px;
 }
