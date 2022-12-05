@@ -39,14 +39,14 @@ function App() {
 
       <div>
         <p><b>C.R.I. FLUID SYSTEMS PRODUCTS CATER TO DIVERSE SEGMENTS</b></p>
-        <p>CHEMICALS & PROCESS POWER WATER & WASTE WATER OILS & GAS PHARMA SUGARS & DISTILLERIES PAPER & PULP MARINE & DEFENCE METAL & MINING FOOD & BEVERAGE PETROCHEMICAL & REFINERIES SOLAR BUILDING HVAC FIRE FIGHTING AGRICULTURE & RESIDENTIAL</p>
+        <p>CHEMICALS & PROCESS POWER WATER & WASTE WATER OILS & GAS PHARMA SUGARS & DISTILLERIES PAPER & PULP MARINE & DEFENSE METAL & MINING FOOD & BEVERAGE PETROCHEMICAL & REFINERIES SOLAR BUILDING HVAC FIRE FIGHTING AGRICULTURE & RESIDENTIAL</p>
       </div>
 
       <div className='footer'>
        <div className='iconAria'>
-       <ul><a>< ImPhone className='icon' />Toll Free 1800 2001234</a></ul>
-      <ul><a><FaFacebook className='icon'/>www.facebook.com/cripumps</a></ul>
-      <ul><a><ImSphere className='icon'/>www.crigroups.com</a></ul>
+       <ul>< a href='1800 2001234' target="_blank">< ImPhone className='icon' />Toll Free 1800 2001234</a></ul>
+      <ul><a href="www.facebook.com/cripumps" target="_blank"><FaFacebook className='icon'/>www.facebook.com/cripumps</a></ul>
+      <ul>< a href="www.crigroups.com" target="_blank" ><ImSphere className='icon'/>www.crigroups.com</a></ul>
        </div>
       <footer className='footer' >Shorif Uddin &copy;-2022</footer>
       </div>

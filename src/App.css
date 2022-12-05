@@ -13,7 +13,7 @@
 
 .Trope{
   width: 80%;
-  height: 400px;
+  height: auto;
 }
 
 .AwardAria{
@@ -46,8 +46,7 @@ display: block;
 
 .footer{
   background-color: red;
-  text-align: center;
-  align-items: center;
+  margin: auto;
   
 }
 p{
@@ -59,30 +58,49 @@ p{
 }
 a:hover{
   cursor: pointer;
+  color: blue;
+}
+
+a{
+  color: #fff;
+  margin: auto;
+  text-decoration: none;
 }
 
 
 
 .footer{
   text-align: center;
+  margin:auto;
+  color:white;
 }
 
 .iconAria{
   display: flex;
-  align-items: center;
+  margin: auto;
+  width: 80%;
+  height:100px;
 }
-
+ 
 .icon{
-  color: aliceblue;
+ color: aliceblue;
   width: 30px;
   padding: 10px;
+  margin: auto;
 }
 
+ul{
+  margin: auto;
+  
+}
+
+/* Responsive Phone */
 @media (max-width: 920px) {
 
+
   .logo{
-    width: 60%;
-    height: 100px;
+    width: 90%;
+    height: auto;
     text-align: center;
     margin: auto;
   }
@@ -96,12 +114,13 @@ a:hover{
   .Trope{
     display: block;
     width: 280px;
-    height: 400px;
+    height: auto;
+    margin: auto;
   }
 
   .Award-right{
     display: block;
-    width: 90%;
+    width: 100%;
     margin: 5px;
     height: auto;
   }
@@ -110,19 +129,26 @@ a:hover{
     display: block;
     width: 95%;
     height: auto;
+    margin: auto;
   }
 
+  .footer{
+    margin:auto ;
+    color:white;
+  }
+  
   .iconAria{
-    display: flex;
-    align-items: center;
-    width: 90%;
+   display: inline;
+   font-size: medium;
+   
   }
-
+   
   .icon{
-    color: aliceblue;
-    display: block;
+   color: aliceblue;
     width: 30px;
+    padding: 5px;
     
   }
+
 }
 
