@@ -12,29 +12,30 @@
 
 
 .Trope{
-  width: 280px;
+  width: 80%;
   height: 400px;
 }
 
 .AwardAria{
   display: grid;
-  grid-template-columns: repeat(2, 2fr);
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .Award{
   display: grid;
-  width: 700px;
+  width: 80%;
   height: 300px;
 }
 
 .Award-right{
+  display: block;
   width: 850px;
   height: 600px;
 }
 
 .Instrument{
-  width: 800px;
-  height: 300px;
+  width: 70%;
+  height: 60%;
   align-items: center;
   margin: auto;
 }
@@ -46,6 +47,7 @@ display: block;
 .footer{
   background-color: red;
   text-align: center;
+  align-items: center;
   
 }
 p{
@@ -67,7 +69,7 @@ a:hover{
 
 .iconAria{
   display: flex;
-  text-align: center;
+  align-items: center;
 }
 
 .icon{
@@ -75,3 +77,52 @@ a:hover{
   width: 30px;
   padding: 10px;
 }
+
+@media (max-width: 920px) {
+
+  .logo{
+    width: 60%;
+    height: 100px;
+    text-align: center;
+    margin: auto;
+  }
+
+  .AwardAria{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+  
+  }
+
+  .Trope{
+    display: block;
+    width: 280px;
+    height: 400px;
+  }
+
+  .Award-right{
+    display: block;
+    width: 90%;
+    margin: 5px;
+    height: auto;
+  }
+
+  .Award{
+    display: block;
+    width: 95%;
+    height: auto;
+  }
+
+  .iconAria{
+    display: flex;
+    align-items: center;
+    width: 90%;
+  }
+
+  .icon{
+    color: aliceblue;
+    display: block;
+    width: 30px;
+    
+  }
+}
+
